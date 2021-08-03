@@ -1,4 +1,10 @@
 .header {
+    padding: .9rem 9% !important;
+
+    ion-title {
+        padding: 0;
+    }
+
     .navbar {
         a {
             color    : var(--ion-color-primary-contrast);
