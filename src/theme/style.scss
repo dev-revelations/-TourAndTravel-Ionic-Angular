@@ -10,7 +10,15 @@
 }
 
 html {
-    font-size: 62.5%;
-    scroll-padding: 6rem;
+    font-size      : 62.5%;
+    scroll-padding : 6rem;
     scroll-behavior: smooth;
+}
+
+ion-toolbar {
+    padding: .5rem 9% !important;
+
+    ion-title {
+        padding: 0;
+    }
 }
