@@ -1,5 +1,16 @@
 * {
-    font-family: "Nunito", sans-serif;
-    transition     : all 0.2s linear;
-    text-transform : capitalize;
+    font-family   : "Nunito", sans-serif;
+    transition    : all 0.2s linear;
+    text-transform: capitalize;
+}
+
+*::selection {
+    background-color: var(--ion-color-secondary);
+    color           : white;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-padding: 6rem;
+    scroll-behavior: smooth;
 }
