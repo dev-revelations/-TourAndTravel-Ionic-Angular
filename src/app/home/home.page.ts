@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
+import { MenuController } from '@ionic/angular';
 
 @Component({
   selector: 'app-home',
@@ -7,6 +8,11 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  constructor(private menu: MenuController) { }
+
+  @HostListener('window:resize')
+  onWindowResize() {
+    this.menu.close();
+  }
 
 }
