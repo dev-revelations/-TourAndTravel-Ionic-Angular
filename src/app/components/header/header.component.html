@@ -1,15 +1,20 @@
 <ion-toolbar color="primary" class="header">
-  <ion-title slot="start">
+  <ion-title slot="start" class="ion-hide-lg-down">
     <app-logo></app-logo>
   </ion-title>
-  <ion-buttons slot="start" class="navbar">
-    <a href="#home">home</a>
-    <a href="#book">book</a>
-    <a href="#packages">packages</a>
-    <a href="#services">services</a>
-    <a href="#gallery">gallery</a>
-    <a href="#review">review</a>
-    <a href="#contact">contact</a>
+  <ion-title slot="secondary" class="ion-hide-lg-up">
+    <app-logo></app-logo>
+  </ion-title>
+  <ion-buttons slot="start" class="ion-hide-lg-down">
+    <nav class="navbar">
+      <a href="#home">home</a>
+      <a href="#book">book</a>
+      <a href="#packages">packages</a>
+      <a href="#services">services</a>
+      <a href="#gallery">gallery</a>
+      <a href="#review">review</a>
+      <a href="#contact">contact</a>
+    </nav>
   </ion-buttons>
 
   <ion-buttons class="icons" slot="end">
