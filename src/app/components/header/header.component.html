@@ -1,5 +1,5 @@
 <ion-toolbar color="primary" class="header">
-  <ion-buttons slot="start"  class="ion-hide-lg-up">
+  <ion-buttons slot="start" class="ion-hide-lg-up">
     <ion-menu-button mode="ios">
       <ion-icon id="menu-bar" class="fas fa-bars"></ion-icon>
     </ion-menu-button>
@@ -15,7 +15,13 @@
   </ion-buttons>
 
   <ion-buttons class="icons" slot="end">
-    <i class="fas fa-search" id="search-btn"></i>
+    <i class="fas fa-search" [class]="{'fa-search': !searchbarActive, 'fa-times': searchbarActive}" id="search-btn"
+      (click)="toggleSearchBar()"></i>
     <i class="fas fa-user" id="search-btn"></i>
   </ion-buttons>
 </ion-toolbar>
+
+<div class="search-bar-container" [class]="{active: searchbarActive}">
+  <ion-searchbar id="search-bar" placeholder="search..."></ion-searchbar>
+  <label for=" search-bar " class=" fas fa-search"></label>
+</div>

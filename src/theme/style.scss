@@ -18,3 +18,9 @@ html {
 a {
     text-decoration: none;
 }
+
+.searchbar-input {
+    text-transform: none !important;
+    font-size: 1.8rem !important;
+    color: var(--ion-color-primary);
+}
