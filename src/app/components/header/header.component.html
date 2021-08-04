@@ -17,7 +17,7 @@
   <ion-buttons class="icons" slot="end">
     <i class="fas fa-search" [class]="{'fa-search': !searchbarActive, 'fa-times': searchbarActive}" id="search-btn"
       (click)="toggleSearchBar()"></i>
-    <i class="fas fa-user" id="search-btn"></i>
+    <i class="fas fa-user" id="search-btn" (click)="loginClick.emit()"></i>
   </ion-buttons>
 </ion-toolbar>
 

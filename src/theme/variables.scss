@@ -1,6 +1,10 @@
 // Ionic Variables and Theming. For more info, please see:
 // http://ionicframework.com/docs/theming/
 
+@function hex-to-rgb($hex) {
+  @return red($hex), green($hex), blue($hex);
+}
+
 /** Ionic CSS Variables **/
 :root {
   --ion-color-primary             : #333333;
@@ -15,6 +19,7 @@
   --ion-color-secondary-contrast    : #ffffff;
   --ion-color-secondary-contrast-rgb: 255, 255, 255;
   --ion-color-secondary-shade       : #e09100;
+  --ion-color-secondary-shade-rgb   : #{hex-to-rgb(#e09100)};
   --ion-color-secondary-tint        : #ffae1a;
 
   --ion-color-tertiary             : #666666;

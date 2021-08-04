@@ -8,6 +8,8 @@ import { MenuController } from '@ionic/angular';
 })
 export class HomePage {
 
+  loginFormActive = false;
+
   constructor(private menu: MenuController) { }
 
   @HostListener('window:resize')

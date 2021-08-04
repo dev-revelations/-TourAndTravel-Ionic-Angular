@@ -1,0 +1,14 @@
+<div class="login-form-container" [class]="{active: formActive}">
+  <i id="form-close" class="fas fa-times" (click)="closeLoginForm()"></i>
+
+  <form action="">
+    <h3>login</h3>
+    <input type="email" class="box" placeholder="Enter your email" />
+    <input type="password" class="box" placeholder="Enter your password" />
+    <input type="submit" value="login now" class="btn" />
+    <input type="checkbox" id="remember" />
+    <label for="remember">remember me</label>
+    <p>forget password? <a href="">click here</a></p>
+    <p>don't have an account? <a href="#">register now</a></p>
+  </form>
+</div>

@@ -21,6 +21,22 @@ a {
 
 .searchbar-input {
     text-transform: none !important;
-    font-size: 1.8rem !important;
-    color: var(--ion-color-primary);
+    font-size     : 1.8rem !important;
+    color         : var(--ion-color-primary);
+}
+
+.btn {
+    display   : inline-block;
+    margin-top: 1rem;
+    background: var(--ion-color-secondary);
+    color     : var(--ion-color-secondary-contrast);
+    padding   : .8rem 3rem;
+    border    : .2rem solid var(--ion-color-secondary);
+    cursor    : pointer;
+    font-size : 1.7rem;
+}
+
+.btn:hover {
+    background: rgba(var(--ion-color-secondary-shade-rgb), 0.2);
+    color     : var(--ion-color-secondary);
 }
