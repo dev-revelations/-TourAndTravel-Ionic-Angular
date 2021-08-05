@@ -4,12 +4,14 @@ import { HeaderComponent } from './header/header.component';
 import { LogoComponent } from './logo/logo.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { LoginFormComponent } from './login-form/login-form.component';
+import { PackageBoxComponent } from './package-box/package-box.component';
 
 const exports = [
   HeaderComponent,
   LogoComponent,
   NavbarComponent,
-  LoginFormComponent
+  LoginFormComponent,
+  PackageBoxComponent,
 ];
 
 @NgModule({

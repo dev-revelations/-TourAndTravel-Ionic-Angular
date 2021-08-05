@@ -1,0 +1,44 @@
+.box {
+    .title {
+        font-size  : 2rem;
+        font-weight: bold;
+
+        i {
+            color: var(--ion-color-secondary);
+        }
+    }
+
+    .content {
+        padding: 2rem;
+
+        p {
+            font-size: 1.7rem;
+            padding  : 1rem 0;
+        }
+
+        .stars {
+            i {
+                font-size: 1.7rem;
+                color    : var(--ion-color-secondary);
+            }
+        }
+
+        .price {
+            font-size  : 2rem;
+            color      : var(--ion-color-primary);
+            padding-top: 1rem;
+
+            span {
+                color          : var(--ion-color-medium);
+                font-size      : 1.5rem;
+                text-decoration: line-through;
+            }
+        }
+    }
+
+    img {
+        height    : 25rem;
+        width     : 100%;
+        object-fit: cover;
+    }
+}

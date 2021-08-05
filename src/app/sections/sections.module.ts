@@ -3,10 +3,12 @@ import { CommonModule } from '@angular/common';
 import { HomeSectionComponent } from './home-section/home-section.component';
 import { ComponentsModule } from '../components/components.module';
 import { BookSectionComponent } from './book-section/book-section.component';
+import { PackagesSectionComponent } from './packages-section/packages-section.component';
 
 const exports = [
   HomeSectionComponent,
-  BookSectionComponent
+  BookSectionComponent,
+  PackagesSectionComponent,
 ];
 
 @NgModule({
