@@ -1,3 +1,19 @@
-<p>
-  home-section works!
-</p>
+<section id="home" class="home">
+  <div class="content">
+    <h3>adventure is worthwhile</h3>
+    <p>discover new places with us, adventure awaits</p>
+    <a href="#" class="btn">discover more</a>
+  </div>
+
+  <div class="controls">
+    <span class="vid-btn" *ngFor="let video of videos; index as i" (click)="setActiveVideo(i)"
+      [class]="{active: i===activeIndex}"></span>
+  </div>
+
+  <div class="video-container">
+    <!-- Need to generate already loaded video elements and show one at a time to avoid 
+         flickering on video slide changes -->
+    <video [src]="makeVideoSrc(i)" id="video-slider" loop autoplay muted *ngFor="let video of videos; index as i"
+      [ngStyle]="{display: i!==activeIndex? 'none': 'unset'}"></video>
+  </div>
+</section>

@@ -7,8 +7,28 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeSectionComponent implements OnInit {
 
+  readonly videosPath = 'assets/images/';
+
+  readonly videos = [
+    'vid-1.mp4',
+    'vid-2.mp4',
+    'vid-3.mp4',
+    'vid-4.mp4',
+    'vid-5.mp4'
+  ];
+
+  activeIndex = 0
+
   constructor() { }
 
-  ngOnInit() {}
+  ngOnInit() { }
+
+  setActiveVideo(index) {
+    this.activeIndex = index;
+  }
+
+  makeVideoSrc(videoIndex): string {
+    return `${this.videosPath}${this.videos[videoIndex]}`;
+  }
 
 }
