@@ -19,6 +19,10 @@ a {
     text-decoration: none;
 }
 
+section {
+    padding: 2rem 9%;
+}
+
 .searchbar-input {
     text-transform: none !important;
     font-size     : 1.8rem !important;
@@ -46,18 +50,18 @@ a {
     padding   : 2.5rem 0;
 
     span {
-        font-size    : 3.5rem;
-        font-weight: bolder;
-        background   : rgba(var(--ion-color-secondary-shade-rgb), 0.2);
-        color        : var(--ion-color-secondary);
-        border-radius: .5rem;
-        padding      : .2rem 1rem;
-        margin-right: .5rem;
+        font-size     : 3.5rem;
+        font-weight   : bolder;
+        background    : rgba(var(--ion-color-secondary-shade-rgb), 0.2);
+        color         : var(--ion-color-secondary);
+        border-radius : .5rem;
+        padding       : .2rem 1rem;
+        margin-right  : .5rem;
         text-transform: uppercase;
     }
 
     span.space {
         background: none;
-        margin: 0;
+        margin    : 0;
     }
 }
