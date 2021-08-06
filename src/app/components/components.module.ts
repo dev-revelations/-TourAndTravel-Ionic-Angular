@@ -5,6 +5,7 @@ import { LogoComponent } from './logo/logo.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { LoginFormComponent } from './login-form/login-form.component';
 import { PackageBoxComponent } from './package-box/package-box.component';
+import { ServiceBoxComponent } from './service-box/service-box.component';
 
 const exports = [
   HeaderComponent,
@@ -12,6 +13,7 @@ const exports = [
   NavbarComponent,
   LoginFormComponent,
   PackageBoxComponent,
+  ServiceBoxComponent,
 ];
 
 @NgModule({

@@ -1,0 +1,19 @@
+<section class="services" id="services">
+  <h1 class="heading">
+    <span>s</span>
+    <span>e</span>
+    <span>r</span>
+    <span>v</span>
+    <span>i</span>
+    <span>c</span>
+    <span>e</span>
+    <span>s</span>
+  </h1>
+
+  <div class="box-container">
+    <app-service-box class="box" *ngFor="let service of serviceList; index as i" icon="{{service.icon}}"
+      title="{{service.title}}">
+      {{service.desc}}
+    </app-service-box>
+  </div>
+</section>
