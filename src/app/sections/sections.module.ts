@@ -5,12 +5,14 @@ import { ComponentsModule } from '../components/components.module';
 import { BookSectionComponent } from './book-section/book-section.component';
 import { PackagesSectionComponent } from './packages-section/packages-section.component';
 import { ServicesSectionComponent } from './services-section/services-section.component';
+import { GallerySectionComponent } from './gallery-section/gallery-section.component';
 
 const exports = [
   HomeSectionComponent,
   BookSectionComponent,
   PackagesSectionComponent,
   ServicesSectionComponent,
+  GallerySectionComponent,
 ];
 
 @NgModule({
