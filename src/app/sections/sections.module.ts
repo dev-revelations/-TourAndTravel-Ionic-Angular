@@ -6,6 +6,7 @@ import { BookSectionComponent } from './book-section/book-section.component';
 import { PackagesSectionComponent } from './packages-section/packages-section.component';
 import { ServicesSectionComponent } from './services-section/services-section.component';
 import { GallerySectionComponent } from './gallery-section/gallery-section.component';
+import { ReviewSectionComponent } from './review-section/review-section.component';
 
 const exports = [
   HomeSectionComponent,
@@ -13,6 +14,7 @@ const exports = [
   PackagesSectionComponent,
   ServicesSectionComponent,
   GallerySectionComponent,
+  ReviewSectionComponent,
 ];
 
 @NgModule({

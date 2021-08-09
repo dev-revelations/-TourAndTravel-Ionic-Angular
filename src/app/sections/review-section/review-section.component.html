@@ -1,0 +1,20 @@
+<section class="review" id="review">
+  <h1 class="heading">
+    <span>r</span>
+    <span>e</span>
+    <span>v</span>
+    <span>i</span>
+    <span>e</span>
+    <span>w</span>
+  </h1>
+
+
+  <ion-slides [options]="slideOpts" class="review-slider">
+    <ion-slide *ngFor="let rev of reviews; index as i">
+      <app-review-box [title]="rev.username" [image]="imagePath + rev.image">
+        {{rev.content}}
+      </app-review-box>
+    </ion-slide>
+  </ion-slides>
+
+</section>

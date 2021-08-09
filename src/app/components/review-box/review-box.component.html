@@ -1,0 +1,20 @@
+<ion-card class="box">
+  <img [src]="image" alt="">
+  <ion-card-header>
+    <ion-card-title>
+      <h3>{{title}}</h3>
+    </ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    <p>
+      <ng-content></ng-content>
+    </p>
+    <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+    </div>
+  </ion-card-content>
+</ion-card>
