@@ -19,7 +19,6 @@ export class HeadingComponent implements OnInit, AfterViewInit {
       const words = this.text.split(' ')
         .filter(value => value.replace(/\s/g, '').length !== 0);
       this.wordList = words.map(value => value.split(''));
-      console.log(this.wordList);
     }
   }
 
