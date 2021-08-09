@@ -11,7 +11,7 @@
     justify-content: center;
 
     form {
-        background   : var(--ion-color-primary-contrast);
+        background   : var(--ion-color-secondary-contrast);
         margin       : 2rem;
         padding      : 1.5rem 2rem;
         border-radius: .5rem;
@@ -39,7 +39,7 @@
         .box:focus-visible,
         .box:focus {
             outline     : 0px;
-            border-color: var(--ion-color-secondary) !important;
+            border-color: var(--ion-color-primary) !important;
         }
 
         #remember {
@@ -62,7 +62,7 @@
             color    : var(--ion-color-dark-tint);
 
             a {
-                color: var(--ion-color-secondary);
+                color: var(--ion-color-primary);
             }
 
             a:hover {
@@ -73,7 +73,7 @@
     }
 
     #form-close {
-        color    : var(--ion-color-primary-contrast);
+        color    : var(--ion-color-secondary-contrast);
         position : absolute;
         top      : 2rem;
         right    : 3rem;
@@ -82,7 +82,7 @@
     }
 
     #form-close:hover {
-        color: var(--ion-color-secondary);
+        color: var(--ion-color-primary);
     }
 }
 

@@ -4,7 +4,7 @@
         font-weight: bold;
 
         i {
-            color: var(--ion-color-secondary);
+            color: var(--ion-color-primary);
         }
     }
 
@@ -19,13 +19,13 @@
         .stars {
             i {
                 font-size: 1.7rem;
-                color    : var(--ion-color-secondary);
+                color    : var(--ion-color-primary);
             }
         }
 
         .price {
             font-size  : 2rem;
-            color      : var(--ion-color-primary);
+            color      : var(--ion-color-secondary);
             padding-top: 1rem;
 
             span {

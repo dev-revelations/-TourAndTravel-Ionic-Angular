@@ -1,5 +1,5 @@
 .footer {
-    background: var(--ion-color-primary);
+    background: var(--ion-color-secondary);
 
     .box-container {
         display  : flex;
@@ -17,11 +17,11 @@
         margin-top : 1rem;
         font-size  : 2rem;
         font-weight: normal;
-        color      : var(--ion-color-primary-contrast);
+        color      : var(--ion-color-secondary-contrast);
         border-top : .1rem solid rgba(255, 255, 255, .2);
 
         span {
-            color: var(--ion-color-secondary);
+            color: var(--ion-color-primary);
         }
     }
 }

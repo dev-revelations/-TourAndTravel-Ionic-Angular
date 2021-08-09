@@ -12,13 +12,13 @@
     .icons {
         i {
             font-size   : 2.5rem;
-            color       : var(--ion-color-primary-contrast);
+            color       : var(--ion-color-secondary-contrast);
             cursor      : pointer;
             margin-right: 2rem;
         }
 
         i:hover {
-            color: var(--ion-color-secondary);
+            color: var(--ion-color-primary);
         }
     }
 
@@ -42,7 +42,7 @@
     left       : 0;
     right      : 0;
     padding    : .8rem 1.5rem;
-    background : var(--ion-color-primary);
+    background : var(--ion-color-secondary);
     border-top : .1rem solid rgba(255, 255, 255, .2);
     z-index    : 1001;
     display    : flex;
@@ -55,14 +55,14 @@
     }
 
     label {
-        color      : var(--ion-color-primary-contrast);
+        color      : var(--ion-color-secondary-contrast);
         cursor     : pointer;
         font-size  : 3rem;
         margin-left: 1.5rem;
     }
 
     label:hover {
-        color: var(--ion-color-secondary);
+        color: var(--ion-color-primary);
     }
 }
 

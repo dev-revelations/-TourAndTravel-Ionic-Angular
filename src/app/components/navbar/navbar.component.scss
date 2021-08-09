@@ -1,19 +1,19 @@
 .navbar {
     a {
-        color    : var(--ion-color-primary-contrast);
+        color    : var(--ion-color-secondary-contrast);
         font-size: 2rem;
         margin   : 0 0.8rem;
     }
 
     a:hover {
-        color: var(--ion-color-secondary);
+        color: var(--ion-color-primary);
     }
 }
 
 @media (max-width: 991px) {
     .navbar {
         position: relative;
-        background: var(--ion-color-primary);
+        background: var(--ion-color-secondary);
         width: 100%;
         height: 100%;
         padding: 15% 2rem 2rem 2rem;

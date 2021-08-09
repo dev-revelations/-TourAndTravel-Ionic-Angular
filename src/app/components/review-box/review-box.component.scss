@@ -10,19 +10,19 @@
     }
 
     h3 {
-        color      : var(--ion-color-primary);
+        color      : var(--ion-color-secondary);
         font-size  : 2.5rem;
         font-weight: bold;
     }
 
     p {
-        color    : var(--ion-color-primary-tint);
+        color    : var(--ion-color-secondary-tint);
         font-size: 1.6rem;
         padding  : 1rem 0;
     }
 
     .stars i {
-        color    : var(--ion-color-secondary);
+        color    : var(--ion-color-primary);
         font-size: 1.8rem;
     }
 }
