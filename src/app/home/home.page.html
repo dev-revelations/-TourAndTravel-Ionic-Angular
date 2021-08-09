@@ -7,7 +7,7 @@
 <ion-header [translucent]="true">
   <app-header (loginClick)="loginFormActive = true;"></app-header>
 </ion-header>
-<ion-content [fullscreen]="true" id="menu-content">
+<ion-content [fullscreen]="true" id="menu-content" #content>
   <app-home-section></app-home-section>
   <app-book-section></app-book-section>
   <app-packages-section></app-packages-section>
