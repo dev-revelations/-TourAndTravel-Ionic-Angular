@@ -1,0 +1,33 @@
+.box {
+    padding   : 2.5rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+
+    .inputBox {
+        display        : flex;
+        flex-wrap      : wrap;
+        gap            : 1rem;
+        justify-content: space-between;
+    }
+
+    .inputBox input,
+    textarea {
+        flex          : 1 1 20rem;
+        margin        : 1rem 0;
+        padding       : 1rem;
+        font-size     : 1.8rem;
+        text-transform: none;
+        color         : var(--ion-color-primary);
+        background    : var(--ion-color-light-tint);
+        border        : none;
+
+        &:focus {
+            outline: 0;
+        }
+    }
+
+    textarea {
+        height: 15rem;
+        width : 100%;
+        resize: none;
+    }
+}

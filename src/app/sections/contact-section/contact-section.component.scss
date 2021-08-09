@@ -1,0 +1,18 @@
+.row {
+    display    : flex;
+    flex-wrap  : wrap;
+    gap        : 1.5rem;
+    align-items: center;
+
+    .image {
+        flex: 1 1 35rem;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .box {
+        flex: 1 1 50rem;
+    }
+}

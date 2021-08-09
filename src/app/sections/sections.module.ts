@@ -7,6 +7,7 @@ import { PackagesSectionComponent } from './packages-section/packages-section.co
 import { ServicesSectionComponent } from './services-section/services-section.component';
 import { GallerySectionComponent } from './gallery-section/gallery-section.component';
 import { ReviewSectionComponent } from './review-section/review-section.component';
+import { ContactSectionComponent } from './contact-section/contact-section.component';
 
 const exports = [
   HomeSectionComponent,
@@ -15,6 +16,7 @@ const exports = [
   ServicesSectionComponent,
   GallerySectionComponent,
   ReviewSectionComponent,
+  ContactSectionComponent,
 ];
 
 @NgModule({
