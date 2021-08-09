@@ -21,7 +21,12 @@ export class HomeSectionComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() { }
+  ngOnInit() {
+    setInterval(() => {
+      this.activeIndex =
+        ++this.activeIndex > this.videos.length-1 ? 0 : this.activeIndex;
+    }, 5000);
+  }
 
   setActiveVideo(index) {
     this.activeIndex = index;
