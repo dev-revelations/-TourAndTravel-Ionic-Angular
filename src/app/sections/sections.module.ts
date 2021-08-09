@@ -10,6 +10,7 @@ import { ReviewSectionComponent } from './review-section/review-section.componen
 import { ContactSectionComponent } from './contact-section/contact-section.component';
 import { BrandSectionComponent } from './brand-section/brand-section.component';
 import { FooterSectionComponent } from './footer-section/footer-section.component';
+import { IonicModule } from '@ionic/angular';
 
 const exports = [
   HomeSectionComponent,
@@ -27,7 +28,8 @@ const exports = [
   declarations: exports,
   imports: [
     CommonModule,
-    ComponentsModule
+    ComponentsModule,
+    IonicModule
   ],
   exports
 })

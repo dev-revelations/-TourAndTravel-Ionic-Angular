@@ -11,6 +11,7 @@ import { ReviewBoxComponent } from './review-box/review-box.component';
 import { ContactBoxComponent } from './contact-box/contact-box.component';
 import { FooterBoxComponent } from './footer-box/footer-box.component';
 import { HeadingComponent } from './heading/heading.component';
+import { IonicModule } from '@ionic/angular';
 
 const exports = [
   HeaderComponent,
@@ -29,7 +30,8 @@ const exports = [
 @NgModule({
   declarations: exports,
   imports: [
-    CommonModule
+    CommonModule,
+    IonicModule
   ],
   exports
 })
