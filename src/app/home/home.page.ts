@@ -54,8 +54,10 @@ export class HomePage implements OnInit, AfterViewInit, OnDestroy {
 
   scrollToFragment(fragment: string) {
     const fragmentElement = document.getElementById(fragment);
-    const offsetTop = fragmentElement.offsetTop - 35;
-    this.scroll(0, offsetTop);
+    if (fragmentElement) {
+      const offsetTop = fragmentElement.offsetTop - 35;
+      this.scroll(0, offsetTop);
+    }
   }
 
 }
