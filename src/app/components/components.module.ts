@@ -10,6 +10,7 @@ import { GalleryImageBoxComponent } from './gallery-image-box/gallery-image-box.
 import { ReviewBoxComponent } from './review-box/review-box.component';
 import { ContactBoxComponent } from './contact-box/contact-box.component';
 import { FooterBoxComponent } from './footer-box/footer-box.component';
+import { HeadingComponent } from './heading/heading.component';
 
 const exports = [
   HeaderComponent,
@@ -22,6 +23,7 @@ const exports = [
   ReviewBoxComponent,
   ContactBoxComponent,
   FooterBoxComponent,
+  HeadingComponent,
 ];
 
 @NgModule({

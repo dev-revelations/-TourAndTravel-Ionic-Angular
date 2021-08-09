@@ -1,14 +1,5 @@
 <section class="packages" id="packages">
-  <h1 class="heading">
-    <span>p</span>
-    <span>a</span>
-    <span>c</span>
-    <span>k</span>
-    <span>a</span>
-    <span>g</span>
-    <span>e</span>
-    <span>s</span>
-  </h1>
+  <app-heading text="packages"></app-heading>
 
   <div class="box-container">
     <app-package-box *ngFor="let package of packageList; index as i" [title]="package.title"
