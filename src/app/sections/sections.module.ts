@@ -9,6 +9,7 @@ import { GallerySectionComponent } from './gallery-section/gallery-section.compo
 import { ReviewSectionComponent } from './review-section/review-section.component';
 import { ContactSectionComponent } from './contact-section/contact-section.component';
 import { BrandSectionComponent } from './brand-section/brand-section.component';
+import { FooterSectionComponent } from './footer-section/footer-section.component';
 
 const exports = [
   HomeSectionComponent,
@@ -19,6 +20,7 @@ const exports = [
   ReviewSectionComponent,
   ContactSectionComponent,
   BrandSectionComponent,
+  FooterSectionComponent,
 ];
 
 @NgModule({

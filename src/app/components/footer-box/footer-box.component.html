@@ -1,0 +1,7 @@
+<div class="box">
+  <h3>{{title}}</h3>
+  <p>
+    <ng-content></ng-content>
+  </p>
+  <a *ngFor="let link of links" href="link.url">{{link.text}}</a>
+</div>

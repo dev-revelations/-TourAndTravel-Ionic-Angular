@@ -9,6 +9,7 @@ import { ServiceBoxComponent } from './service-box/service-box.component';
 import { GalleryImageBoxComponent } from './gallery-image-box/gallery-image-box.component';
 import { ReviewBoxComponent } from './review-box/review-box.component';
 import { ContactBoxComponent } from './contact-box/contact-box.component';
+import { FooterBoxComponent } from './footer-box/footer-box.component';
 
 const exports = [
   HeaderComponent,
@@ -20,6 +21,7 @@ const exports = [
   GalleryImageBoxComponent,
   ReviewBoxComponent,
   ContactBoxComponent,
+  FooterBoxComponent,
 ];
 
 @NgModule({

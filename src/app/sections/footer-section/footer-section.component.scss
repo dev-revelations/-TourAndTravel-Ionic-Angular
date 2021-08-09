@@ -1,0 +1,27 @@
+.footer {
+    background: var(--ion-color-primary);
+
+    .box-container {
+        display  : flex;
+        flex-wrap: wrap;
+        gap      : 1.5rem;
+
+        .box {
+            flex: 1 1 25rem;
+        }
+    }
+
+    .credit {
+        text-align : center;
+        padding    : 2rem 1rem;
+        margin-top : 1rem;
+        font-size  : 2rem;
+        font-weight: normal;
+        color      : var(--ion-color-primary-contrast);
+        border-top : .1rem solid rgba(255, 255, 255, .2);
+
+        span {
+            color: var(--ion-color-secondary);
+        }
+    }
+}
