@@ -8,6 +8,7 @@ import { ServicesSectionComponent } from './services-section/services-section.co
 import { GallerySectionComponent } from './gallery-section/gallery-section.component';
 import { ReviewSectionComponent } from './review-section/review-section.component';
 import { ContactSectionComponent } from './contact-section/contact-section.component';
+import { BrandSectionComponent } from './brand-section/brand-section.component';
 
 const exports = [
   HomeSectionComponent,
@@ -17,6 +18,7 @@ const exports = [
   GallerySectionComponent,
   ReviewSectionComponent,
   ContactSectionComponent,
+  BrandSectionComponent,
 ];
 
 @NgModule({

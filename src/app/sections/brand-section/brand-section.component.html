@@ -1,0 +1,7 @@
+<section class="brand-container">
+  <ion-slides [options]="slideOpts" class="brand-slider">
+    <ion-slide *ngFor="let brand of brands; index as i">
+      <img [src]="imagePath + brand.image" alt="">
+    </ion-slide>
+  </ion-slides>
+</section>
